@@ -1,0 +1,53 @@
+.pizza-stages-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .stage {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .stage h3 {
+    margin-top: 0;
+  }
+  
+  .stage ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stage li {
+    margin-bottom: 10px;
+  }
+  
+  .overdue {
+    background-color: #ffcccc; /* Example background color for overdue pizzas */
+  }
+  
+  .stage button {
+    margin-top: 5px;
+  }
+
+  .stage-header {
+    text-align: center;
+  }
+  
+  .pizza-details {
+    border: 1px solid rgb(81, 0, 255);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .next-button {
+    background-color: rgb(35, 165, 35);
+  }  
+
+  .cancel-button {
+    background-color: rgb(251, 34, 34);
+  }
