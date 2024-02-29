@@ -1,39 +1,3 @@
-/*
-import React, { useState } from 'react';
-
-const MainSection = ({ pizzasInProgress, onCancel }) => {
-  // State to track total pizzas delivered today
-  const [totalDelivered, setTotalDelivered] = useState(0);
-
-  // Function to cancel an order
-  const handleCancelOrder = (orderId) => {
-    onCancel(orderId);
-  };
-
-  return (
-    <div>
-      <h2>Pizzas in Progress</h2>
-      <ul>
-        {pizzasInProgress.map((pizza) => (
-          <li key={pizza.id}>
-            <p>ID: {pizza.id}</p>
-            <p>Remaining Time: {pizza.remainingTime}</p>
-            {/ Button to cancel order /}
-            <button onClick={() => handleCancelOrder(pizza.id)}>Cancel</button>
-          </li>
-        ))}
-      </ul>
-      <div>
-        {/ Display total pizzas delivered today /}
-        <p>Total Pizzas Delivered Today: {totalDelivered}</p>
-      </div>
-    </div>
-  );
-};
-
-export default MainSection;
-*/
-
 import React from 'react';
 
 const MainSection = ({ pizzasInProgress, onCancel, totalPizzasDelivered }) => {
